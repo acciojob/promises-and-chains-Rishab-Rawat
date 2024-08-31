@@ -15,10 +15,10 @@ document.getElementById("ageForm").addEventListener("submit", function(event) {
       }, 4000); 
     })
     .then(() => {
-      alert(Welcome, ${name}. You can vote.);
+      alert(`Welcome, ${name}. You can vote.`);
     })
     .catch(() => {
-      alert(Oh sorry ${name}. You aren't old enough.);
+      alert(`Oh sorry ${name}. You aren't old enough.`);
     });
   } else {
     alert("Please fill in all fields.");
